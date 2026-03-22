@@ -99,5 +99,8 @@ $$\lim_{x\rightarrow0} \frac{\ln(1-\tan x)}{x} = \lim_{x\rightarrow0} \frac{\fra
 
 $\ln y \rightarrow -1$이므로, 구하고자 하는 극한값 $y$는 $e^{-1} = \frac{1}{e}$ 다.
 
+* 2단계 (So What): 
+ 복잡한 지수 형태의 부정형을 로그와 l'Hopital 법칙을 통해 상수로 수렴시킴으로써, 함수가 원점 근처에서 어떻게 거동하는지 명확히 알 수 있을 것임
+
 
   
