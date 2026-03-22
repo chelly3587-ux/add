@@ -85,6 +85,19 @@ $$\lim_{x \to 0^+} \frac{3^x - 3^{\sin x}}{x - \sin x} = \lim_{c \to 0} (3^c \ln
  14 (예제 4.4-2) 함수의 오목성과 변곡점
 * 1단계 (What):  이계도함수 도출을 원함. 함수 $f(x) = x^4 - x^2 - 2x + 1$을 두 번 미분하여 오목성을 결정하는 $f''(x)$ 를 구합니다. $f'(x) = 4x^3 - 2x - 2$$f''(x) = 12x^2 - 2$  구간 및 변곡점 판정한다. $f''(x) = 0$ 인 지점 $x = \pm\frac{1}{\sqrt{6}}$을 기준으로 부호를 조사한다. 아래로 볼록 ($f'' > 0$): $x < -\frac{1}{\sqrt{6}}$ 또는 $x > \frac{1}{\sqrt{6}}$ 구간  위로 볼록 ($f'' < 0$): $-\frac{1}{\sqrt{6}} < x < \frac{1}{\sqrt{6}}$ 구간  변곡점: $\left(\pm\frac{1}{\sqrt{6}} )\right)$
 * 2단계 (So What): 함수의 오목성과 변곡점을 안다면 반복되는 현상의 주기를 찾아내 커다란 변화를 쉽게 예측할 수 있을 것이다.
-  
+
+
+15 (연습문제 4.4-8) l'Hopital 법칙을 이용한 극한
+* 1단계 (What): 계산 과정 및 근거 설명1. 부정형 확인 및 로그 취하기 주어진 극한 $\lim_{x\rightarrow0}(1-\tan x)^{\frac{1}{x}}$ 은 $1^\infty$ 꼴의 부정형입니다. 계산을 위해 $y = (1-\tan x)^{\frac{1}{x}}$ 라 두고 양변에 자연로그를 취함
+$$\ln y = \frac{\ln(1-\tan x)}{x}$$
+
+ 
+ l'Hopital 법칙 적용 
+$x \rightarrow 0$일 때 $\frac{0}{0}$ 꼴이 되므로 분자, 분모를 각각 미분
+$$\lim_{x\rightarrow0} \frac{\ln(1-\tan x)}{x} = \lim_{x\rightarrow0} \frac{\frac{1}{1-\tan x} \cdot (-\sec^2 x)}{1}$$$x=0$을 대입하면 $\frac{1 \cdot (-1)}{1} = -1$이 된다.
+
+
+$\ln y \rightarrow -1$이므로, 구하고자 하는 극한값 $y$는 $e^{-1} = \frac{1}{e}$ 다.
+
 
   
