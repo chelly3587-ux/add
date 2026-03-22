@@ -106,13 +106,29 @@ $\ln y \rightarrow -1$이므로, 구하고자 하는 극한값 $y$는 $e^{-1} = 
 16 (기본공식) 부정적분 중요 공식
 * 1단계 (What)
 1 $\int x^n dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1)$  예 $\int x^2 dx = \frac{x^3}{3} + C$
+
+  
 2 $\int \frac{f'(x)}{f(x)} dx = \lnf(x)
+
+
 3 $\int e^{ax} dx = \frac{1}{a}e^{ax} + C$   예 $\int e^{2x} dx = \frac{1}{2}e^{2x} + C$
+
+
 4 $\int \sin x dx = -\cos x + C$   예 $\int 3\sin x dx = -3\cos x + C$
+
+
 5 $\int \cos x dx = \sin x + C$  예 $\int \cos(x) dx = \sin x + C$
+
+
 6 $\int \sec^2 x dx = \tan x + C$   예 $\int 5\sec^2 x dx = 5\tan x + C$
+
+
 7 $\int \sec x \tan x dx = \sec x + C$    예$\int \sec x \tan x dx = \sec x + C$
+
+
 8 $\int \frac{1}{\sqrt{a^2-x^2}} dx = \sin^{-1} \frac{x}{a} + C$   예 $\int \frac{1}{\sqrt{4-x^2}} dx = \sin^{-1} \frac{x}{2} + C$
+
+
 9 $\int \frac{1}{a^2+x^2} dx = \frac{1}{a}\tan^{-1} \frac{x}{a} + C$  예  $\int \frac{1}{1+x^2} dx = \tan^{-1} x + C$
 
     
