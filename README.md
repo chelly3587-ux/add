@@ -19,3 +19,8 @@
 * 본론 (수학적 조작)쌍곡함수의 정의를 이용한다. $\sinh x = \frac{e^x - e^{-x}}{2}$ $\cosh x = \frac{e^x + e^{-x}}{2}$
   $\sinh(\ln 2)$ 계산: $\sinh(\ln 2) = \frac{e^{\ln 2} - e^{-\ln 2}}{2} = \frac{2 - \frac{1}{2}}{2} = \frac{\frac{3}{2}}{2} = \frac{3}{4}$
   $\cosh(\ln 3)$ 계산: $\cosh(\ln 3) = \frac{e^{\ln 3} + e^{-\ln 3}}{2} = \frac{3 + \frac{1}{3}}{2} = \frac{\frac{10}{3}}{2} = \frac{5}{3}$
+  최종 결과 도출:
+
+두 값을 더하면 $\frac{3}{4} + \frac{5}{3}$입니다.
+
+분모를 12로 통분하면 $\frac{9}{12} + \frac{20}{12} = \frac{29}{12}$가 됩니다.
