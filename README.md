@@ -60,3 +60,5 @@
  첫 번째 항 ($x \tan^{-1}x$): 곱의 미분법 $(fg)' = f'g + fg'$을 적용합니다. $$\frac{d}{dx}(x \tan^{-1}x) = (1)\tan^{-1}x + x \cdot \frac{1}{1+x^2} = \tan^{-1}x + \frac{x}{1+x^2}$$ 두 번째 항 ( $\frac{1}{2}\ln(1+x^2)$ ): 로그함수의 미분법과 연쇄법칙을 적용한다 $$\frac{d}{dx}\left(\frac{1}{2}\ln(1+x^2)\right) = \frac{1}{2} \cdot \frac{1}{1+x^2} \cdot (2x) = \frac{x}{1+x^2}$$  
 두 항의 미분 결과를 결합하면 다음과 같다
 $$y' = \left(\tan^{-1}x + \frac{x}{1+x^2}\right) - \left(\frac{x}{1+x^2}\right)$$ $$\therefore y' = \tan^{-1}x$$
+* 2단계 (So What):
+  
