@@ -105,6 +105,8 @@ $\ln y \rightarrow -1$이므로, 구하고자 하는 극한값 $y$는 $e^{-1} = 
 
 16 (기본공식) 부정적분 중요 공식
 * 1단계 (What)
+
+  
 1 $\int x^n dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1)$  예 $\int x^2 dx = \frac{x^3}{3} + C$
 
   
