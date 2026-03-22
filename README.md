@@ -61,4 +61,5 @@
 두 항의 미분 결과를 결합하면 다음과 같다
 $$y' = \left(\tan^{-1}x + \frac{x}{1+x^2}\right) - \left(\frac{x}{1+x^2}\right)$$ $$\therefore y' = \tan^{-1}x$$
 * 2단계 (So What):
+  어려워서 잘 모르겠음
   
